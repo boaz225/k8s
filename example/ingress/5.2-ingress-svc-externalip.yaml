@@ -12,5 +12,5 @@ spec:
     app.kubernetes.io/name: ingress-nginx
     app.kubernetes.io/part-of: ingress-nginx
   externalIPs:
-  - 173.193.100.89
+  - ${EXTERNAL_IP}
 
